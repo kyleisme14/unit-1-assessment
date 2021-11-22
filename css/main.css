@@ -7,3 +7,36 @@ section {
 	align-items: center;  /* centers vertically in row layout */
 	/* flex-direction: column; will set layout to column instead of row */
 }
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+input {
+	height: 100px;
+	width: 150px;
+	border-radius: 25px;
+	-webkit-appearance: none;
+	-moz-appearance: textfield;
+	border: 5px solid gray ;
+	margin: 20px;
+}
+
+button {
+	height: 100px;
+	width: 100px;
+	border: 5px solid gray ;
+	color: white;
+	background-color: gray;
+	border-radius: 25px;
+
+}
+button:hover {
+	background-color: aqua;
+}
+
+input {
+	text-align: center;
+}
